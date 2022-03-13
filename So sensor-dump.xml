@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<sor>
+  <filename>So sensor.SOR</filename>
+  <format>2</format>
+  <version>2.00</version>
+  <mapblock>
+    <nbytes>150</nbytes>
+    <nblocks>9</nblocks>
+  </mapblock>
+  <blocks>
+    <GenParams>
+      <name>GenParams</name>
+      <version>2.00</version>
+      <size>42</size>
+      <pos>150</pos>
+      <order>0</order>
+    </GenParams>
+    <SupParams>
+      <name>SupParams</name>
+      <version>2.00</version>
+      <size>56</size>
+      <pos>192</pos>
+      <order>1</order>
+    </SupParams>
+    <FxdParams>
+      <name>FxdParams</name>
+      <version>2.00</version>
+      <size>92</size>
+      <pos>248</pos>
+      <order>2</order>
+    </FxdParams>
+    <KeyEvents>
+      <name>KeyEvents</name>
+      <version>2.00</version>
+      <size>210</size>
+      <pos>340</pos>
+      <order>3</order>
+    </KeyEvents>
+    <NetTestTSI_>
+      <name>NetTestTSI </name>
+      <version>2.00</version>
+      <size>2110</size>
+      <pos>550</pos>
+      <order>4</order>
+    </NetTestTSI_>
+    <DataPts>
+      <name>DataPts</name>
+      <version>2.00</version>
+      <size>50022</size>
+      <pos>2660</pos>
+      <order>5</order>
+    </DataPts>
+    <ARSpecial>
+      <name>ARSpecial</name>
+      <version>2.10</version>
+      <size>241</size>
+      <pos>52682</pos>
+      <order>6</order>
+    </ARSpecial>
+    <AREvent>
+      <name>AREvent</name>
+      <version>2.00</version>
+      <size>236</size>
+      <pos>52923</pos>
+      <order>7</order>
+    </AREvent>
+    <Cksum>
+      <name>Cksum</name>
+      <version>2.00</version>
+      <size>8</size>
+      <pos>53159</pos>
+      <order>8</order>
+    </Cksum>
+  </blocks>
+  <GenParams>
+    <language>PO</language>
+    <cable_ID> </cable_ID>
+    <fiber_ID>603</fiber_ID>
+    <fiber_type>G.652 (standard SMF)</fiber_type>
+    <wavelength>1550 nm</wavelength>
+    <location_A> </location_A>
+    <location_B> </location_B>
+    <cable_code_fiber_type> </cable_code_fiber_type>
+    <build_condition>OT (other)</build_condition>
+    <user_offset>0</user_offset>
+    <user_offset_distance>0</user_offset_distance>
+    <operator> </operator>
+    <comments> </comments>
+  </GenParams>
+  <SupParams>
+    <supplier>Anritsu</supplier>
+    <OTDR>MT9083A2-073 </OTDR>
+    <OTDR_S_N>6201233555 </OTDR_S_N>
+    <module> </module>
+    <module_S_N> </module_S_N>
+    <software>1.02 </software>
+    <other> </other>
+  </SupParams>
+  <FxdParams>
+    <date_time>Fri May 24 17:35:34 2019 (1558719334 sec)</date_time>
+    <unit>mt (meters)</unit>
+    <wavelength>1550.0 nm</wavelength>
+    <acquisition_offset>0</acquisition_offset>
+    <acquisition_offset_distance>0</acquisition_offset_distance>
+    <number_of_pulse_width_entries>1</number_of_pulse_width_entries>
+    <pulse_width>1000 ns</pulse_width>
+    <sample_spacing>0.01000693 usec</sample_spacing>
+    <num_data_points>25001</num_data_points>
+    <index>1.468200</index>
+    <BC>-81.50 dB</BC>
+    <num_averages>49152</num_averages>
+    <averaging_time>3 sec</averaging_time>
+    <range>51.085038513479255</range>
+    <acquisition_range_distance>0</acquisition_range_distance>
+    <front_panel_offset>0</front_panel_offset>
+    <noise_floor_level>56999</noise_floor_level>
+    <noise_floor_scaling_factor>1000</noise_floor_scaling_factor>
+    <power_offset_first_point>0</power_offset_first_point>
+    <loss_thr>0.050 dB</loss_thr>
+    <refl_thr>-60.000 dB</refl_thr>
+    <EOT_thr>3.000 dB</EOT_thr>
+    <trace_type>ST[standard trace]</trace_type>
+    <X1>0</X1>
+    <Y1>0</Y1>
+    <X2>0</X2>
+    <Y2>0</Y2>
+    <resolution>2.0433198077468604</resolution>
+  </FxdParams>
+  <KeyEvents>
+    <num_events>4</num_events>
+    <event_1>
+      <type>0F9999LS {auto} loss/drop/gain</type>
+      <distance>10.072</distance>
+      <slope>0.604</slope>
+      <splice_loss>13.122</splice_loss>
+      <refl_loss>-2147483.647</refl_loss>
+      <comments> </comments>
+      <end_of_prev>8.269</end_of_prev>
+      <start_of_curr>9.873</start_of_curr>
+      <end_of_curr>10.568</end_of_curr>
+      <start_of_next>11.692</start_of_next>
+      <peak>10.072</peak>
+    </event_1>
+    <event_2>
+      <type>0F99992P [unknown type 0F99992P]</type>
+      <distance>13.598</distance>
+      <slope>0.185</slope>
+      <splice_loss>0.065</splice_loss>
+      <refl_loss>-2147483.647</refl_loss>
+      <comments> </comments>
+      <end_of_prev>13.592</end_of_prev>
+      <start_of_curr>13.596</start_of_curr>
+      <end_of_curr>13.731</end_of_curr>
+      <start_of_next>13.743</start_of_next>
+      <peak>13.598</peak>
+    </event_2>
+    <event_3>
+      <type>0F99992P [unknown type 0F99992P]</type>
+      <distance>14.614</distance>
+      <slope>0.199</slope>
+      <splice_loss>-0.072</splice_loss>
+      <refl_loss>-2147483.647</refl_loss>
+      <comments> </comments>
+      <end_of_prev>14.595</end_of_prev>
+      <start_of_curr>14.608</start_of_curr>
+      <end_of_curr>14.741</end_of_curr>
+      <start_of_next>14.753</start_of_next>
+      <peak>14.614</peak>
+    </event_3>
+    <event_4>
+      <type>0E99992P [unknown type 0E99992P]</type>
+      <distance>20.262</distance>
+      <slope>-0.237</slope>
+      <splice_loss>14.475</splice_loss>
+      <refl_loss>-2147483.647</refl_loss>
+      <comments> </comments>
+      <end_of_prev>20.243</end_of_prev>
+      <start_of_curr>20.255</start_of_curr>
+      <end_of_curr>21.071</end_of_curr>
+      <start_of_next>21.075</start_of_next>
+      <peak>20.262</peak>
+    </event_4>
+    <Summary>
+      <total_loss>18.719</total_loss>
+      <ORL>0.0</ORL>
+      <loss_start>0.0</loss_start>
+      <loss_end>20.261556</loss_end>
+      <ORL_start>0.0</ORL_start>
+      <ORL_finish>0.0</ORL_finish>
+    </Summary>
+  </KeyEvents>
+  <DataPts>
+    <_datapts_params>
+      <xscaling>1</xscaling>
+      <offset>STV</offset>
+    </_datapts_params>
+    <num_data_points>25001</num_data_points>
+    <num_traces>1</num_traces>
+    <num_data_points_2>25001</num_data_points_2>
+    <scaling_factor>1.0</scaling_factor>
+    <max_before_offset>65.535</max_before_offset>
+    <min_before_offset>18.39</min_before_offset>
+  </DataPts>
+  <Cksum>
+    <checksum_ours>37487</checksum_ours>
+    <checksum>48040</checksum>
+    <match>False</match>
+  </Cksum>
+</sor>
