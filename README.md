@@ -3,7 +3,7 @@
     <img alt="Fiber sensor blue logo" src="https://raw.githubusercontent.com/itsaleplets/fiber-sensors/Main/src/images/blue-logo.png" width="200px" />   
 </div>
 <br>
-A Fiber Sensors é uma inovação tecnológica que utiliza circuitos ópticos unidos na tubulação hídrica para detecção de vazamentos. Nossa solução dispõe características únicas que nenhuma outra tecnologia pode oferecer, como: análise em tempo real e remota de toda malha hídrica capaz de detectar pequenos vazamentos, convergência de todos os dados um uma única interface e, além disso, nossa solução é de baixo custo.
+A Fiber Sensors é uma inovação tecnológica que utiliza circuitos ópticos para detecção de vazamentos em sistemas de tubulação hídrica. Nossa solução dispõe características únicas: alta precisão na posição de vazamentos pequenos com análise em tempo real e remota de toda malha hídrica, convergência de todos os dados um uma única interface e, além disso, nossa solução entrega ganho de eficiência operacional com uma tecnologia de baixo custo.
 <br>
 
 ### Ferramentas
